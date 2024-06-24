@@ -15,8 +15,8 @@ importers:
         specifier: ^3.1.5
         version: 3.1.5
       '@astrojs/svelte':
-        specifier: ^5.5.0
-        version: 5.5.0(astro@4.10.2(typescript@5.4.2))(svelte@4.2.18)(typescript@5.4.2)(vite@5.3.0)
+        specifier: ^5.6.0
+        version: 5.6.0(astro@4.10.2(typescript@5.4.2))(svelte@4.2.18)(typescript@5.4.2)(vite@5.3.0)
       '@astrojs/tailwind':
         specifier: ^5.1.0
         version: 5.1.0(astro@4.10.2(typescript@5.4.2))(tailwindcss@3.4.4)
@@ -86,8 +86,8 @@ packages:
   '@astrojs/sitemap@3.1.5':
     resolution: {integrity: sha512-GLdzJ01387Uzb8RKYpsYLlg/GzoPnGbmDeQNkarSE11i2+l9Qp8Nj/WoTEy9nkTS25fxxy0kxDfJmreeVleCqg==}
 
-  '@astrojs/svelte@5.5.0':
-    resolution: {integrity: sha512-ooNFv4gWcc+IQnjgnijI6qTzXOPn7MBacSBqFd3EEQ9GDd2lnu87lqKEO8M5bXnQfsqsChg3E1gOsJ862mbCRA==}
+  '@astrojs/svelte@5.6.0':
+    resolution: {integrity: sha512-rdHBlqMQE6UOA1ySF1t3sdb6pf44yP8Dd0TqxGO0yR4HAgbtKtW8XToJ3mQ1PmuRmf5fisH9xzt3EEx7NAQuZg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
     peerDependencies:
       astro: ^4.0.0
@@ -2706,7 +2706,7 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.23.8
 
-  '@astrojs/svelte@5.5.0(astro@4.10.2(typescript@5.4.2))(svelte@4.2.18)(typescript@5.4.2)(vite@5.3.0)':
+  '@astrojs/svelte@5.6.0(astro@4.10.2(typescript@5.4.2))(svelte@4.2.18)(typescript@5.4.2)(vite@5.3.0)':
     dependencies:
       '@sveltejs/vite-plugin-svelte': 3.1.1(svelte@4.2.18)(vite@5.3.0)
       astro: 4.10.2(typescript@5.4.2)
