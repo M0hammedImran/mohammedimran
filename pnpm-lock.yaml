@@ -27,8 +27,8 @@ importers:
         specifier: ^0.5.15
         version: 0.5.15(tailwindcss@3.4.16)
       '@vercel/kv':
-        specifier: ^1.0.1
-        version: 1.0.1
+        specifier: ^3.0.0
+        version: 3.0.0
       astro:
         specifier: ^5.0.5
         version: 5.0.5(jiti@1.21.6)(rollup@4.28.1)(typescript@5.4.2)(yaml@2.6.1)
@@ -750,8 +750,8 @@ packages:
   '@ungap/structured-clone@1.2.1':
     resolution: {integrity: sha512-fEzPV3hSkSMltkw152tJKNARhOupqbH96MZWyRjNaYZOMIzbrTeQDG+MTc6Mr2pgzFQzFxAfmhGDNP5QK++2ZA==}
 
-  '@upstash/redis@1.25.1':
-    resolution: {integrity: sha512-ACj0GhJ4qrQyBshwFgPod6XufVEfKX2wcaihsEvSdLYnY+m+pa13kGt1RXm/yTHKf4TQi/Dy2A8z/y6WUEOmlg==}
+  '@upstash/redis@1.34.3':
+    resolution: {integrity: sha512-VT25TyODGy/8ljl7GADnJoMmtmJ1F8d84UXfGonRRF8fWYJz7+2J6GzW+a6ETGtk4OyuRTt7FRSvFG5GvrfSdQ==}
 
   '@vercel/analytics@1.4.1':
     resolution: {integrity: sha512-ekpL4ReX2TH3LnrRZTUKjHHNpNy9S1I7QmS+g/RQXoSUQ8ienzosuX7T9djZ/s8zPhBx1mpHP/Rw5875N+zQIQ==}
@@ -782,8 +782,8 @@ packages:
   '@vercel/edge@1.1.4':
     resolution: {integrity: sha512-mCe+KKmYphgWaO6NSxzkxskv4eZOuuRDqBQX/LhOizj5o1+4u/fwjN+WZDpAyVH8WU8+7EueijoT6wbTKlauOA==}
 
-  '@vercel/kv@1.0.1':
-    resolution: {integrity: sha512-uTKddsqVYS2GRAM/QMNNXCTuw9N742mLoGRXoNDcyECaxEXvIHG0dEY+ZnYISV4Vz534VwJO+64fd9XeSggSKw==}
+  '@vercel/kv@3.0.0':
+    resolution: {integrity: sha512-pKT8fRnfyYk2MgvyB6fn6ipJPCdfZwiKDdw7vB+HL50rjboEBHDVBEcnwfkEpVSp2AjNtoaOUH7zG+bVC/rvSg==}
     engines: {node: '>=14.6'}
 
   '@vercel/nft@0.27.9':
@@ -3009,7 +3009,7 @@ snapshots:
 
   '@ungap/structured-clone@1.2.1': {}
 
-  '@upstash/redis@1.25.1':
+  '@upstash/redis@1.34.3':
     dependencies:
       crypto-js: 4.2.0
 
@@ -3019,9 +3019,9 @@ snapshots:
 
   '@vercel/edge@1.1.4': {}
 
-  '@vercel/kv@1.0.1':
+  '@vercel/kv@3.0.0':
     dependencies:
-      '@upstash/redis': 1.25.1
+      '@upstash/redis': 1.34.3
 
   '@vercel/nft@0.27.9(rollup@4.28.1)':
     dependencies:
